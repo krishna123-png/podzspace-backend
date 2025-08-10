@@ -1,0 +1,9 @@
+{
+  "name": "Node 18 API",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "forwardPorts": [4000],
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": { "extensions": ["dbaeumer.vscode-eslint"] }
+  }
+}
